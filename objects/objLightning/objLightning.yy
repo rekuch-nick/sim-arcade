@@ -1,18 +1,18 @@
 {
-    "id": "be58ad3a-4db5-40a8-bd8e-0ef7b86b7425",
+    "id": "a79cff47-d0b7-4db7-bad2-f057c1373e57",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "objTornado",
+    "name": "objLightning",
     "eventList": [
         {
-            "id": "89ccafbe-2887-410d-9ee5-fb19d2023f0f",
+            "id": "b1803d59-ccb4-4973-959d-5a1e7dfb6b1b",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "be58ad3a-4db5-40a8-bd8e-0ef7b86b7425"
+            "m_owner": "a79cff47-d0b7-4db7-bad2-f057c1373e57"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "abac9ac5-7c49-42f1-b0d4-1675076ebb8b",
+    "spriteId": "3dc6e010-4e90-457f-851f-8b9d7d917552",
     "visible": true
 }

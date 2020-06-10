@@ -19,3 +19,15 @@ moveSpeed = 6;
 firstTurn = true;
 
 bumpDamage = 1;
+closeDamage = 0;
+closeRange = 1;
+
+onTop = false;
+xFlip = 0;
+
+firstStrike = false;
+turns = 15;
+removeWhenStill = false;
+
+spawns = 0;
+spawnRate = 0;

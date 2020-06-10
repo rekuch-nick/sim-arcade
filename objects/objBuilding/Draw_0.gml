@@ -2,9 +2,9 @@ draw_self();
 
 //draw hpBar
 if(hp < mhp){
-	var frame = 1;
-	if(hp < mhp * .6){ frame = 2; }
-	if(hp < mhp * .3){ frame = 3; }
+	var frame = 0;
+	if(hp / mhp <= .66){ frame = 1; }
+	if(hp / mhp <= .33){ frame = 2; }
 	
 	var w = (hp / mhp) * 60;
 	

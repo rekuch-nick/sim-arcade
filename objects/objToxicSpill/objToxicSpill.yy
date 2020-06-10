@@ -1,18 +1,18 @@
 {
-    "id": "be58ad3a-4db5-40a8-bd8e-0ef7b86b7425",
+    "id": "d6c876a7-ee0d-47f9-a72e-1e8b1c922383",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "objTornado",
+    "name": "objToxicSpill",
     "eventList": [
         {
-            "id": "89ccafbe-2887-410d-9ee5-fb19d2023f0f",
+            "id": "61494213-eabb-409d-8cb9-c4b3f2af892c",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "be58ad3a-4db5-40a8-bd8e-0ef7b86b7425"
+            "m_owner": "d6c876a7-ee0d-47f9-a72e-1e8b1c922383"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "abac9ac5-7c49-42f1-b0d4-1675076ebb8b",
+    "spriteId": "90d1ec8a-c126-4caf-890a-9dae367df8b5",
     "visible": true
 }

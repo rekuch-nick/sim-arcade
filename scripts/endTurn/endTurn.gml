@@ -107,6 +107,7 @@ for(var aa=0; aa<20; aa++){
 				
 				if(bMap[a, b].pass >= irandom_range(4, 6)){
 					var i = bMap[a, b].image_index;
+					var hp = bMap[a, b].hp;
 					
 					
 					var s = bMap[a, b].object_index;
@@ -129,6 +130,7 @@ for(var aa=0; aa<20; aa++){
 					bMap[a, b] = instance_create_depth(a * 60, b * 60, -2000 - (b * 10), t);
 					bMap[a, b].xSpot = a; bMap[a, b].ySpot = b;
 					bMap[a, b].image_index = i;
+					bMap[a, b].hp = hp;
 				
 				} else {
 					bMap[a, b].pass ++;

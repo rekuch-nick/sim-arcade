@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "29f73e8f-9943-4b89-ad25-4ae1e40c7933",
+            "Value": {
+                "id": "bf9fd24d-c19b-4b9e-9a59-fc33dea4b0bb",
+                "resourcePath": "objects\\objFire\\objFire.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2cc3dd5c-0c6a-445a-b66c-3a0ade38a59b",
             "Value": {
                 "id": "c2316edd-f044-49a9-9e1d-2972033c95b4",
@@ -179,6 +187,14 @@
             "Value": {
                 "id": "f9b0979a-be59-4485-8f3a-60fbb4abd676",
                 "resourcePath": "sprites\\imgFarm01\\imgFarm01.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3dc6e010-4e90-457f-851f-8b9d7d917552",
+            "Value": {
+                "id": "d60525b0-6da4-461f-9c22-531f578fe15e",
+                "resourcePath": "sprites\\imgLightning\\imgLightning.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -319,6 +335,14 @@
             }
         },
         {
+            "Key": "90d1ec8a-c126-4caf-890a-9dae367df8b5",
+            "Value": {
+                "id": "bdc7fa54-a7e8-40ab-95d1-38786d7c9cab",
+                "resourcePath": "sprites\\imgToxicSpill\\imgToxicSpill.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9ab45520-580e-4e12-9459-5f2686486fc6",
             "Value": {
                 "id": "a09b3405-1135-4ed0-b90c-a8acc5482eda",
@@ -339,6 +363,14 @@
             "Value": {
                 "id": "5129387a-f7ec-4fb9-bf31-cf6cd1334c1f",
                 "resourcePath": "scripts\\canZone\\canZone.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "9f39c4e0-9d93-4f85-abe4-a55659766378",
+            "Value": {
+                "id": "cc0daa12-9292-4d46-8d75-102b791450df",
+                "resourcePath": "scripts\\selectAction\\selectAction.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -379,6 +411,14 @@
             "Value": {
                 "id": "6eb7642c-5eca-4394-88c3-d4fb570d51a8",
                 "resourcePath": "objects\\objFarm03\\objFarm03.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a79cff47-d0b7-4db7-bad2-f057c1373e57",
+            "Value": {
+                "id": "f6f72472-dc72-4fae-b2ce-fc9fd4d2c786",
+                "resourcePath": "objects\\objLightning\\objLightning.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -447,6 +487,14 @@
             }
         },
         {
+            "Key": "c39e0e2c-7a0d-4e16-a066-b15a2752842b",
+            "Value": {
+                "id": "d5b1f272-5da3-4f09-ab21-cfcb7e32796b",
+                "resourcePath": "sprites\\imgFire\\imgFire.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c4a86c24-8ad0-4a1d-9aac-0c42ae6b7fb5",
             "Value": {
                 "id": "23c5f4e6-4335-41f9-ac50-26ff57f5e8a0",
@@ -511,6 +559,14 @@
             }
         },
         {
+            "Key": "d6c876a7-ee0d-47f9-a72e-1e8b1c922383",
+            "Value": {
+                "id": "8639a92d-2a0c-41f3-bb0e-96a2f6b03563",
+                "resourcePath": "objects\\objToxicSpill\\objToxicSpill.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d714b2fc-e79e-4f8d-87a1-b99a72cbebb3",
             "Value": {
                 "id": "2fcc5d57-f27f-4b26-a894-c64784f53e5f",
@@ -540,6 +596,14 @@
                 "id": "2e0c2c7e-1d6a-4d8c-a37a-62bffc261ae2",
                 "resourcePath": "views\\dad7a369-8a90-435b-ae75-f67cf7e99357.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ded545b5-4433-45f1-8e84-67ad7a892327",
+            "Value": {
+                "id": "f60b11a2-04c4-4650-bb8d-c3195d5269b0",
+                "resourcePath": "objects\\objLightning2\\objLightning2.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -594,6 +658,7 @@
     "script_order": [
         "03180d35-6943-4120-a150-596c19ff52d3",
         "06a1bc8c-61a6-4d48-9e9c-a7802c18d5a4",
+        "9f39c4e0-9d93-4f85-abe4-a55659766378",
         "e563acdc-70b7-4167-b8a7-72a6e6ed99e7",
         "9e669afb-cdf6-489e-a386-3700dcdcc4a5",
         "22cb606f-78f5-4798-bed9-85d2558134ba",

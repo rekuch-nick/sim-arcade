@@ -1,5 +1,6 @@
 //scope: only called from world
 var charge = false;
+var longWait = false;
 
 if(mouse_wheel_up()){
 	action --;
@@ -15,6 +16,11 @@ if(mouse_wheel_down()){
 	}
 }
 
+if(keyboard_check_pressed(ord("W"))){ selectAction(acts.wait); }
+if(keyboard_check_pressed(ord("R"))){ selectAction(acts.zoneR); }
+if(keyboard_check_pressed(ord("C"))){ selectAction(acts.zoneC); }
+if(keyboard_check_pressed(ord("A"))){ selectAction(acts.zoneA); }
+if(keyboard_check_pressed(ord("X"))){ selectAction(acts.dezone); }
 
 
 
@@ -34,7 +40,10 @@ if(mouse_check_button_released(mb_left)){
 		
 		if(act == acts.dezone && canDezone(xMouse, yMouse)){ zMap[xMouse, yMouse] = ""; charge = true; }
 		
-		if(act == acts.wait && yMouse < 10){ charge = true; }
+		if(act == acts.wait && yMouse < 10){ 
+			if(keyboard_check(vk_shift)){ longWait = true; }
+			charge = true; 
+		}
 		
 		
 	}
@@ -45,9 +54,19 @@ if(mouse_check_button_released(mb_left)){
 }
 
 
+if(keyboard_check_pressed(vk_space)){
+	if(keyboard_check(vk_shift)){ longWait = true; }
+	charge = true;
+}
 
 if(charge){
+	var m = floor(month);
 	endTurn();
+	if(longWait){
+		while(floor(month) == m){
+			endTurn();
+		}
+	}
 }
 
 
